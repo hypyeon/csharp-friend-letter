@@ -17,6 +17,8 @@ namespace FriendLetter
       WebApplication app = builder.Build();
       // creates and returns web app host, saving in the variable `app`. 
 
+      //app.UseDeveloperExceptionPage();
+
       app.UseRouting();
       // ensuring host to match the website URL - routes to be defined in controller files
 
