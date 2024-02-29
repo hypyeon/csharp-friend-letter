@@ -19,6 +19,10 @@ namespace FriendLetter
 
       //app.UseDeveloperExceptionPage();
 
+      app.UseHttpsRedirection();
+      // enabling HTTPS redirection 
+      // to get a security certificate, run `dotnet dev-certs https --trust` on console
+
       app.UseRouting();
       // ensuring host to match the website URL - routes to be defined in controller files
 
